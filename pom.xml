@@ -4,6 +4,4 @@
   <groupId>com.upshot.push.lib</groupId>
   <artifactId>final</artifactId>
   <version>1.0</version>
-  <packaging>pom</packaging>
-  <dependencies/>
 </project>
