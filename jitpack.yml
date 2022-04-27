@@ -1,3 +1,4 @@
 install:
-  FILE="-Dfile=final-1.0.aar"
+  FILE="-Dfile=$HOME/.m2/repository/com/upshot/push/lib/final/1.0final-1.0.aar"
   mvn install:install-file $FILE -DgroupId=com.upshot.push.lib -DartifactId=final -Dversion=1.0 -Dpackaging=aar -DpomFile=pom.xml
+
