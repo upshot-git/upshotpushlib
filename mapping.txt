@@ -1,6 +1,6 @@
 # compiler: R8
 # compiler_version: 3.1.51
-# pg_map_id: eb7f117
+# pg_map_id: 9ce91d1
 # common_typos_disable
 # {"id":"com.android.tools.r8.mapping","version":"1.0"}
 com.brandkinesis.BKAbsActivity -> com.brandkinesis.BKAbsActivity:
@@ -193,12 +193,12 @@ com.brandkinesis.BKGenerateUserInfo -> com.brandkinesis.c:
     313:316:void putInt(org.json.JSONObject,java.lang.String,android.os.Bundle):1021:1024 -> a
     317:351:void putInt(org.json.JSONObject,java.lang.String,android.os.Bundle):1014:1048 -> a
     352:372:void uploadData(java.lang.String,java.lang.String,java.util.ArrayList):1079:1099 -> a
-    373:373:void getAppUidFromDB():1116:1116 -> a
-    374:383:void uploadUserInfoStateData(java.lang.String,int):1127:1136 -> a
-    384:384:void deleteSyncedRecords(java.lang.String):1156:1156 -> a
-    385:466:void generateJsonFroUpdatedValues(java.util.ArrayList,java.lang.String,boolean):1195:1276 -> a
-    467:475:void jsonPutByDatatype(org.json.JSONObject,java.lang.String,java.lang.Object,int):1284:1292 -> a
-    476:506:org.json.JSONObject createUserInfoItemObject(java.lang.String,java.lang.Object,int,int,long):1298:1328 -> a
+    373:373:void getAppUidFromDB():1115:1115 -> a
+    374:383:void uploadUserInfoStateData(java.lang.String,int):1126:1135 -> a
+    384:384:void deleteSyncedRecords(java.lang.String):1155:1155 -> a
+    385:466:void generateJsonFroUpdatedValues(java.util.ArrayList,java.lang.String,boolean):1194:1275 -> a
+    467:475:void jsonPutByDatatype(org.json.JSONObject,java.lang.String,java.lang.Object,int):1283:1291 -> a
+    476:507:org.json.JSONObject createUserInfoItemObject(java.lang.String,java.lang.Object,int,int,long):1297:1328 -> a
     1:1:void access$100(com.brandkinesis.BKGenerateUserInfo):63:63 -> b
     2:217:void generateJsonFromBundle(android.os.Bundle):430:645 -> b
     218:224:void updateTimeZoneDetails(org.json.JSONObject):751:757 -> b
@@ -206,13 +206,13 @@ com.brandkinesis.BKGenerateUserInfo -> com.brandkinesis.c:
     249:274:void putString(org.json.JSONObject,java.lang.String,android.os.Bundle):970:995 -> b
     275:279:void putString(org.json.JSONObject,java.lang.String,android.os.Bundle):987:991 -> b
     280:283:void putString(org.json.JSONObject,java.lang.String,android.os.Bundle):980:983 -> b
-    284:284:void getAppUidStateFromDB(java.lang.String):1152:1152 -> b
-    285:285:void getPendingUserInfoFromDB():1166:1166 -> b
+    284:284:void getAppUidStateFromDB(java.lang.String):1151:1151 -> b
+    285:285:void getPendingUserInfoFromDB():1165:1165 -> b
     1:1:void access$200(com.brandkinesis.BKGenerateUserInfo):63:63 -> c
-    2:2:void getPendingUserInfoStatesFromDB():1170:1170 -> c
-    3:3:void sendAllUserInfoToJourney(java.lang.String):1178:1178 -> c
+    2:2:void getPendingUserInfoStatesFromDB():1169:1169 -> c
+    3:3:void sendAllUserInfoToJourney(java.lang.String):1177:1177 -> c
     1:1:android.content.Context access$300(com.brandkinesis.BKGenerateUserInfo):63:63 -> d
-    2:2:void getUpdatedStateValuesFromDB():1174:1174 -> d
+    2:2:void getUpdatedStateValuesFromDB():1173:1173 -> d
     1:1:boolean access$600(com.brandkinesis.BKGenerateUserInfo):63:63 -> e
     2:2:void getUpdatedValuesFromDB():1108:1108 -> e
     1:9:void resetUserBackupData():243:251 -> f
@@ -4967,20 +4967,20 @@ com.brandkinesis.activity.survey.views.SurveyResponseView -> com.brandkinesis.ac
     246:251:com.brandkinesis.uicomponents.BKUIViewPager createViewPager(com.brandkinesis.activity.survey.BKSurveyTypes$SurveyOrientation,android.view.View[],android.content.Context):979:984 -> a
     252:271:com.brandkinesis.uicomponents.BKUIViewPager createViewPager(com.brandkinesis.activity.survey.BKSurveyTypes$SurveyOrientation,android.view.View[],android.content.Context):981:1000 -> a
     272:280:void continueButtonLogic():1128:1136 -> a
-    281:281:void setQuestionNumber(int):1182:1182 -> a
-    282:287:void startLeftMovementAnim(android.view.View):1274:1279 -> a
-    288:296:int getFullScreenDimensions(boolean,android.content.Context):1314:1322 -> a
-    297:322:int getFullScreenHeightDimensions(android.content.Context,android.util.DisplayMetrics):1327:1352 -> a
-    323:323:int getFullScreenHeightDimensions(android.content.Context,android.util.DisplayMetrics):1350:1350 -> a
-    324:324:int getFullScreenHeightDimensions(android.content.Context,android.util.DisplayMetrics):1338:1338 -> a
-    325:349:int getFullScreenHeightDimensions(android.content.Context,android.util.DisplayMetrics):1336:1360 -> a
+    281:281:void setQuestionNumber(int):1186:1186 -> a
+    282:287:void startLeftMovementAnim(android.view.View):1278:1283 -> a
+    288:296:int getFullScreenDimensions(boolean,android.content.Context):1318:1326 -> a
+    297:322:int getFullScreenHeightDimensions(android.content.Context,android.util.DisplayMetrics):1331:1356 -> a
+    323:323:int getFullScreenHeightDimensions(android.content.Context,android.util.DisplayMetrics):1354:1354 -> a
+    324:324:int getFullScreenHeightDimensions(android.content.Context,android.util.DisplayMetrics):1342:1342 -> a
+    325:349:int getFullScreenHeightDimensions(android.content.Context,android.util.DisplayMetrics):1340:1364 -> a
     1:1:android.widget.RelativeLayout access$100(com.brandkinesis.activity.survey.views.SurveyResponseView):91:91 -> b
     2:2:void access$200(com.brandkinesis.activity.survey.views.SurveyResponseView,android.view.View):91:91 -> b
     3:37:android.widget.LinearLayout getNextButtonLayout(java.lang.String,android.content.Context):579:613 -> b
     38:49:android.widget.LinearLayout addCenterView(android.content.Context):665:676 -> b
     50:52:void disableNextButton():935:937 -> b
-    53:59:void startTranslateAnim(android.view.View):1284:1290 -> b
-    60:73:int getWindowDimensions(boolean,android.content.Context):1294:1307 -> b
+    53:59:void startTranslateAnim(android.view.View):1288:1294 -> b
+    60:73:int getWindowDimensions(boolean,android.content.Context):1298:1311 -> b
     1:1:void access$1000(com.brandkinesis.activity.survey.views.SurveyResponseView):91:91 -> c
     2:38:android.widget.LinearLayout getSubmitButtonLayout(java.lang.String,android.content.Context):617:653 -> c
     39:93:android.widget.RelativeLayout addDescriptionView(android.content.Context):712:766 -> c
@@ -4990,7 +4990,7 @@ com.brandkinesis.activity.survey.views.SurveyResponseView -> com.brandkinesis.ac
     8:10:void disableSubmitButton():949:951 -> d
     1:1:java.util.ArrayList access$300(com.brandkinesis.activity.survey.views.SurveyResponseView):91:91 -> e
     2:3:void enableNextButton():930:931 -> e
-    4:37:android.view.View addThankYouLayout(android.content.Context):1216:1249 -> e
+    4:37:android.view.View addThankYouLayout(android.content.Context):1220:1253 -> e
     1:1:com.brandkinesis.uicomponents.BKUIViewPager access$400(com.brandkinesis.activity.survey.views.SurveyResponseView):91:91 -> f
     2:78:android.widget.RelativeLayout addViews(android.content.Context):285:361 -> f
     79:81:void enableNextButtonLayout():956:958 -> f
@@ -5010,11 +5010,11 @@ com.brandkinesis.activity.survey.views.SurveyResponseView -> com.brandkinesis.ac
     1:10:void nextButtonLayoutClick(android.content.Context):1074:1083 -> l
     1:28:void nextButtonLogic(android.content.Context):1092:1119 -> m
     1:17:android.widget.RelativeLayout pagerView(android.content.Context):379:395 -> n
-    1:4:void performSubmitAction(android.content.Context):1255:1258 -> o
+    1:4:void performSubmitAction(android.content.Context):1259:1262 -> o
     1:29:void onClick(android.view.View):1011:1039 -> onClick
-    1:23:void onPageSelected(int):1156:1178 -> onPageSelected
-    1:19:void shrinkView(android.content.Context):1187:1205 -> p
-    1:7:void submitSurvey(android.content.Context):1263:1269 -> q
+    1:27:void onPageSelected(int):1156:1182 -> onPageSelected
+    1:19:void shrinkView(android.content.Context):1191:1209 -> p
+    1:7:void submitSurvey(android.content.Context):1267:1273 -> q
 com.brandkinesis.activity.survey.views.SurveyResponseView$1 -> com.brandkinesis.activity.survey.views.c$a:
     com.brandkinesis.activity.survey.views.SurveyResponseView this$0 -> a
     1:1:void <init>(com.brandkinesis.activity.survey.views.SurveyResponseView):98:98 -> <init>
@@ -5034,8 +5034,8 @@ com.brandkinesis.activity.survey.views.SurveyResponseView$4 -> com.brandkinesis.
     1:16:void onGlobalLayout():334:349 -> onGlobalLayout
 com.brandkinesis.activity.survey.views.SurveyResponseView$5 -> com.brandkinesis.activity.survey.views.c$e:
     com.brandkinesis.activity.survey.views.SurveyResponseView this$0 -> b
-    1:1:void <init>(com.brandkinesis.activity.survey.views.SurveyResponseView):1196:1196 -> <init>
-    1:3:void run():1199:1201 -> run
+    1:1:void <init>(com.brandkinesis.activity.survey.views.SurveyResponseView):1200:1200 -> <init>
+    1:3:void run():1203:1205 -> run
 com.brandkinesis.activity.survey.views.SurveyResponseView$6 -> com.brandkinesis.activity.survey.views.c$f:
     int[] $SwitchMap$com$brandkinesis$activity$survey$BKSurveyTypes$SurveyOrientation -> b
     int[] $SwitchMap$com$brandkinesis$activity$survey$BKSurveyTypes$QuestionTypes -> a
@@ -6798,53 +6798,53 @@ com.brandkinesis.activitymanager.BKActivity -> com.brandkinesis.activitymanager.
     com.brandkinesis.activity.trivia.views.BKLeaderboardCallBack bkLeaderboardCallBack -> m
     long millisRemaining -> p
     int videoCurrentPosition -> q
-    1:307:void <init>():68:374 -> <init>
-    1:1:java.lang.String access$000(com.brandkinesis.activitymanager.BKActivity):68:68 -> a
-    2:2:java.util.HashMap access$400(com.brandkinesis.activitymanager.BKActivity,android.content.Context):68:68 -> a
-    3:3:void access$500(com.brandkinesis.activitymanager.BKActivity,java.util.HashMap):68:68 -> a
-    4:7:void setOrientationSupport(int):190:193 -> a
-    8:11:void redirectionToMiniGames(java.lang.String):416:419 -> a
-    1:1:java.lang.String access$100(com.brandkinesis.activitymanager.BKActivity):68:68 -> b
-    2:2:void access$600(com.brandkinesis.activitymanager.BKActivity,java.util.HashMap):68:68 -> b
-    3:12:java.util.HashMap getActivityEventData(android.content.Context):400:409 -> b
-    13:16:void redirectionToWeb(java.lang.String):424:427 -> b
-    1:1:void access$200(com.brandkinesis.activitymanager.BKActivity):68:68 -> c
-    2:119:void loadActivityByType(android.content.Context):217:334 -> c
-    120:125:void loadActivityByType(android.content.Context):320:325 -> c
-    126:129:void loadActivityByType(android.content.Context):313:316 -> c
-    130:141:void loadActivityByType(android.content.Context):298:309 -> c
-    142:144:void loadActivityByType(android.content.Context):293:295 -> c
-    145:147:void loadActivityByType(android.content.Context):288:290 -> c
-    148:150:void loadActivityByType(android.content.Context):282:284 -> c
-    151:154:void loadActivityByType(android.content.Context):274:277 -> c
-    155:259:void loadActivityByType(android.content.Context):247:351 -> c
-    1:1:void access$300(com.brandkinesis.activitymanager.BKActivity):68:68 -> d
-    2:6:void init():202:206 -> d
-    1:1:void onBackPressed():84:84 -> onBackPressed
-    1:40:void onCreate(android.os.Bundle):145:184 -> onCreate
-    41:41:void onCreate(android.os.Bundle):182:182 -> onCreate
-    1:5:void onDestroy():385:389 -> onDestroy
-    1:1:boolean onKeyDown(int,android.view.KeyEvent):394:394 -> onKeyDown
-    1:1:void onPause():437:437 -> onPause
-    1:1:void onResume():432:432 -> onResume
-    1:4:void onSaveInstanceState(android.os.Bundle):362:365 -> onSaveInstanceState
-    1:2:void onStop():443:444 -> onStop
+    1:310:void <init>():69:378 -> <init>
+    1:1:java.lang.String access$000(com.brandkinesis.activitymanager.BKActivity):69:69 -> a
+    2:2:java.util.HashMap access$400(com.brandkinesis.activitymanager.BKActivity,android.content.Context):69:69 -> a
+    3:3:void access$500(com.brandkinesis.activitymanager.BKActivity,java.util.HashMap):69:69 -> a
+    4:8:void setOrientationSupport(int):191:195 -> a
+    9:12:void redirectionToMiniGames(java.lang.String):420:423 -> a
+    1:1:java.lang.String access$100(com.brandkinesis.activitymanager.BKActivity):69:69 -> b
+    2:2:void access$600(com.brandkinesis.activitymanager.BKActivity,java.util.HashMap):69:69 -> b
+    3:12:java.util.HashMap getActivityEventData(android.content.Context):404:413 -> b
+    13:16:void redirectionToWeb(java.lang.String):428:431 -> b
+    1:1:void access$200(com.brandkinesis.activitymanager.BKActivity):69:69 -> c
+    2:119:void loadActivityByType(android.content.Context):221:338 -> c
+    120:125:void loadActivityByType(android.content.Context):324:329 -> c
+    126:129:void loadActivityByType(android.content.Context):317:320 -> c
+    130:141:void loadActivityByType(android.content.Context):302:313 -> c
+    142:144:void loadActivityByType(android.content.Context):297:299 -> c
+    145:147:void loadActivityByType(android.content.Context):292:294 -> c
+    148:150:void loadActivityByType(android.content.Context):286:288 -> c
+    151:154:void loadActivityByType(android.content.Context):278:281 -> c
+    155:259:void loadActivityByType(android.content.Context):251:355 -> c
+    1:1:void access$300(com.brandkinesis.activitymanager.BKActivity):69:69 -> d
+    2:6:void init():206:210 -> d
+    1:1:void onBackPressed():85:85 -> onBackPressed
+    1:40:void onCreate(android.os.Bundle):146:185 -> onCreate
+    41:41:void onCreate(android.os.Bundle):183:183 -> onCreate
+    1:5:void onDestroy():389:393 -> onDestroy
+    1:1:boolean onKeyDown(int,android.view.KeyEvent):398:398 -> onKeyDown
+    1:1:void onPause():441:441 -> onPause
+    1:1:void onResume():436:436 -> onResume
+    1:4:void onSaveInstanceState(android.os.Bundle):366:369 -> onSaveInstanceState
+    1:2:void onStop():447:448 -> onStop
 com.brandkinesis.activitymanager.BKActivity$1 -> com.brandkinesis.activitymanager.BKActivity$a:
     com.brandkinesis.activitymanager.BKActivity this$0 -> a
-    1:1:void <init>(com.brandkinesis.activitymanager.BKActivity):87:87 -> <init>
-    1:12:void onSubmitButtonClicked():93:104 -> a
+    1:1:void <init>(com.brandkinesis.activitymanager.BKActivity):88:88 -> <init>
+    1:12:void onSubmitButtonClicked():94:105 -> a
 com.brandkinesis.activitymanager.BKActivity$2 -> com.brandkinesis.activitymanager.BKActivity$b:
     com.brandkinesis.activitymanager.BKActivity this$0 -> a
-    1:1:void <init>(com.brandkinesis.activitymanager.BKActivity):109:109 -> <init>
-    1:4:void onEndReached():114:117 -> a
-    1:11:void onActivitySkipped():122:132 -> b
+    1:1:void <init>(com.brandkinesis.activitymanager.BKActivity):110:110 -> <init>
+    1:4:void onEndReached():115:118 -> a
+    1:11:void onActivitySkipped():123:133 -> b
 com.brandkinesis.activitymanager.BKActivity$3 -> com.brandkinesis.activitymanager.BKActivity$c:
     com.brandkinesis.activitymanager.BKActivity this$0 -> a
-    1:1:void <init>(com.brandkinesis.activitymanager.BKActivity):374:374 -> <init>
-    1:3:void onOpenStore(boolean):377:379 -> a
+    1:1:void <init>(com.brandkinesis.activitymanager.BKActivity):378:378 -> <init>
+    1:3:void onOpenStore(boolean):381:383 -> a
 com.brandkinesis.activitymanager.BKActivity$4 -> com.brandkinesis.activitymanager.BKActivity$d:
     int[] $SwitchMap$com$brandkinesis$activitymanager$BKActivityTypes -> a
-    1:1:void <clinit>():243:243 -> <clinit>
+    1:1:void <clinit>():247:247 -> <clinit>
 com.brandkinesis.activitymanager.BKActivityEvents -> com.brandkinesis.activitymanager.a:
     1:4:java.lang.String createEventWithSubType(int,java.util.HashMap,boolean):32:35 -> a
     5:7:void closeEvent(java.lang.String):47:49 -> a
@@ -8113,20 +8113,20 @@ com.brandkinesis.database.operations.BKUserInfoDBOperations -> com.brandkinesis.
     6:6:void insertDeleteUserInfoValues(int,android.content.ContentValues,com.brandkinesis.database.BKDBOperationCompleteListener):100:100 -> a
     7:8:void updateDeleteUserData(java.lang.String,int,android.content.ContentValues,com.brandkinesis.database.BKDBOperationCompleteListener):126:127 -> a
     9:12:void updateOrInsertDeleteUserData(int,java.lang.String,android.content.ContentValues,com.brandkinesis.database.BKDBOperationCompleteListener):138:141 -> a
-    13:13:void createTable(java.lang.String,int,com.brandkinesis.database.BKDBOperationCompleteListener):270:270 -> a
-    14:14:void deleteTableRecords(java.lang.String):345:345 -> a
-    15:35:void getUserDetails(java.lang.String,java.util.Set,int,com.brandkinesis.database.BKDBOperationCompleteListener):401:421 -> a
-    36:66:void getUserDetails(java.lang.String,java.util.Set,int,com.brandkinesis.database.BKDBOperationCompleteListener):402:432 -> a
-    67:74:java.lang.StringBuilder convertSetToSqlInClause(java.util.Set):438:445 -> a
-    75:78:void getAppuidStateWithOutSync(int,com.brandkinesis.database.BKDBOperationCompleteListener):453:456 -> a
-    1:12:void getCurrentAppuid(int,com.brandkinesis.database.BKDBOperationCompleteListener):277:288 -> b
-    13:14:void deleteSyncedRecords(java.lang.String,int,com.brandkinesis.database.BKDBOperationCompleteListener):309:310 -> b
-    15:29:boolean isGcmTokenAvailable(java.lang.String):327:341 -> b
+    13:13:void createTable(java.lang.String,int,com.brandkinesis.database.BKDBOperationCompleteListener):269:269 -> a
+    14:14:void deleteTableRecords(java.lang.String):344:344 -> a
+    15:35:void getUserDetails(java.lang.String,java.util.Set,int,com.brandkinesis.database.BKDBOperationCompleteListener):400:420 -> a
+    36:66:void getUserDetails(java.lang.String,java.util.Set,int,com.brandkinesis.database.BKDBOperationCompleteListener):401:431 -> a
+    67:74:java.lang.StringBuilder convertSetToSqlInClause(java.util.Set):437:444 -> a
+    75:78:void getAppuidStateWithOutSync(int,com.brandkinesis.database.BKDBOperationCompleteListener):452:455 -> a
+    1:12:void getCurrentAppuid(int,com.brandkinesis.database.BKDBOperationCompleteListener):276:287 -> b
+    13:14:void deleteSyncedRecords(java.lang.String,int,com.brandkinesis.database.BKDBOperationCompleteListener):308:309 -> b
+    15:29:boolean isGcmTokenAvailable(java.lang.String):326:340 -> b
     1:1:void getUpdatedUserInfoValues(int,com.brandkinesis.database.BKDBOperationCompleteListener):188:188 -> c
-    2:3:void dropTable(java.lang.String,int,com.brandkinesis.database.BKDBOperationCompleteListener):248:249 -> c
-    1:6:void getAllUserDetails(java.lang.String,int,com.brandkinesis.database.BKDBOperationCompleteListener):462:467 -> d
-    1:11:void getCurrentAppuidState(java.lang.String,int,com.brandkinesis.database.BKDBOperationCompleteListener):294:304 -> e
-    1:7:void getUsersLocaleCode(java.lang.String,int,com.brandkinesis.database.BKDBOperationCompleteListener):378:384 -> f
+    2:3:void dropTable(java.lang.String,int,com.brandkinesis.database.BKDBOperationCompleteListener):247:248 -> c
+    1:6:void getAllUserDetails(java.lang.String,int,com.brandkinesis.database.BKDBOperationCompleteListener):461:466 -> d
+    1:11:void getCurrentAppuidState(java.lang.String,int,com.brandkinesis.database.BKDBOperationCompleteListener):293:303 -> e
+    1:7:void getUsersLocaleCode(java.lang.String,int,com.brandkinesis.database.BKDBOperationCompleteListener):377:383 -> f
 com.brandkinesis.database.operations.BKUserInfoDBOperations$1 -> com.brandkinesis.database.operations.d$a:
     com.brandkinesis.database.BKDBOperationCompleteListener val$operationCompleteListener -> c
     com.brandkinesis.database.operations.BKUserInfoDBOperations this$0 -> f
@@ -8142,9 +8142,9 @@ com.brandkinesis.database.operations.BKUserInfoDBOperations$1$1 -> com.brandkine
 com.brandkinesis.database.operations.BKUserInfoDBOperations$GcmTokenCountOperationImpl -> com.brandkinesis.database.operations.d$b:
     java.util.concurrent.CountDownLatch latch -> b
     boolean tokenAvailable -> c
-    1:2:void <init>(java.util.concurrent.CountDownLatch):354:355 -> <init>
-    1:5:void onDbOperationCompleted(java.util.ArrayList,byte,int):361:365 -> a
-    6:6:boolean isTokenAvailable():370:370 -> a
+    1:2:void <init>(java.util.concurrent.CountDownLatch):353:354 -> <init>
+    1:5:void onDbOperationCompleted(java.util.ArrayList,byte,int):360:364 -> a
+    6:6:boolean isTokenAvailable():369:369 -> a
 com.brandkinesis.inbox.BKInbox -> com.brandkinesis.inbox.a:
     int counter -> n
     int notificationsCount -> o
@@ -9508,8 +9508,8 @@ com.brandkinesis.userInfo.CreateUserInfoContentValues -> com.brandkinesis.userIn
     40:72:android.content.ContentValues createContentValuesForGeneralInfo():94:126 -> a
     1:2:android.content.ContentValues createContentValuesToUpdateTime():142:143 -> b
 com.brandkinesis.utils.BKAES -> com.brandkinesis.utils.a:
-    1:10:java.lang.String decryptAES(java.lang.String,java.lang.String):37:46 -> a
-    1:8:java.lang.String encryptAES(java.lang.String,java.lang.String):18:25 -> b
+    1:19:java.lang.String decryptAES(java.lang.String,java.lang.String):42:60 -> a
+    1:11:java.lang.String encryptAES(java.lang.String,java.lang.String):19:29 -> b
 com.brandkinesis.utils.BKAppStatusUtil -> com.brandkinesis.utils.BKAppStatusUtil:
     java.util.List activities -> b
     com.brandkinesis.shake.BKShakeListener mBkShakeListener -> d
