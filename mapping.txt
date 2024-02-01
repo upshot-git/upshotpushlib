@@ -1,6 +1,6 @@
 # compiler: R8
 # compiler_version: 3.1.51
-# pg_map_id: 9ce91d1
+# pg_map_id: 9706b7d
 # common_typos_disable
 # {"id":"com.android.tools.r8.mapping","version":"1.0"}
 com.brandkinesis.BKAbsActivity -> com.brandkinesis.BKAbsActivity:
@@ -5175,111 +5175,120 @@ com.brandkinesis.activity.trivia.pojos.BKTriviaLeaderboardOptionInfo -> com.bran
     java.lang.Integer min -> c
     java.lang.Integer max -> d
     java.lang.String reward -> f
+    java.lang.String deeplinkData -> i
     java.lang.String localizedText -> h
     java.lang.Integer count -> g
     java.lang.String name -> b
     java.lang.String rewardType -> e
     1:1:void <init>():16:16 -> <init>
-    1:1:void setLocalizedText(java.lang.String):32:32 -> a
-    2:2:java.lang.Integer getCount():76:76 -> a
-    3:3:void setCount(java.lang.Integer):80:80 -> a
-    1:1:java.lang.String getLocalizedText():28:28 -> b
-    2:2:void setName(java.lang.String):40:40 -> b
-    3:3:void setMax(java.lang.Integer):56:56 -> b
-    1:1:void setMin(java.lang.Integer):48:48 -> c
-    2:2:java.lang.Integer getMax():52:52 -> c
-    3:3:void setReward(java.lang.String):72:72 -> c
-    1:1:java.lang.Integer getMin():44:44 -> d
-    2:2:void setRewardType(java.lang.String):64:64 -> d
-    1:1:java.lang.String getName():36:36 -> e
-    1:1:boolean equals(java.lang.Object):85:85 -> equals
-    1:1:java.lang.String getReward():68:68 -> f
-    1:1:java.lang.String getRewardType():60:60 -> g
+    1:1:java.lang.Integer getCount():77:77 -> a
+    2:2:void setCount(java.lang.Integer):81:81 -> a
+    3:3:void setDeeplinkData(java.lang.String):90:90 -> a
+    1:1:void setLocalizedText(java.lang.String):33:33 -> b
+    2:2:void setMax(java.lang.Integer):57:57 -> b
+    3:3:java.lang.String getDeeplinkData():94:94 -> b
+    1:1:java.lang.String getLocalizedText():29:29 -> c
+    2:2:void setName(java.lang.String):41:41 -> c
+    3:3:void setMin(java.lang.Integer):49:49 -> c
+    1:1:java.lang.Integer getMax():53:53 -> d
+    2:2:void setReward(java.lang.String):73:73 -> d
+    1:1:java.lang.Integer getMin():45:45 -> e
+    2:2:void setRewardType(java.lang.String):65:65 -> e
+    1:1:boolean equals(java.lang.Object):86:86 -> equals
+    1:1:java.lang.String getName():37:37 -> f
+    1:1:java.lang.String getReward():69:69 -> g
+    1:1:java.lang.String getRewardType():61:61 -> h
 com.brandkinesis.activity.trivia.pojos.BKTriviaModel -> com.brandkinesis.activity.trivia.pojos.c:
-    java.lang.String descriptionImage -> K
-    boolean responseMandatory -> J
-    java.lang.String scoreLabel -> M
-    java.lang.String gradeLabel -> O
-    java.lang.String baseUrl -> Q
+    java.util.HashMap bitmapArrayList -> H
+    java.lang.String descriptionImageURL -> M
+    java.lang.String leaderBoardTitle -> O
+    java.lang.String responseLabel -> Q
+    org.json.JSONObject responseToUpload -> I
     com.brandkinesis.activity.trivia.pojos.BKTriviaLeaderboardInfo bkTriviaLeaderboardInfo -> x
-    boolean timerLimitEnabled -> R
     int currentScore -> A
+    boolean timerTypeIsQuestion -> T
     java.lang.String wrongAnswerFontcolor -> v
-    int[] gradeColors -> I
     int totalScore -> y
     java.util.ArrayList triviaModelQuestionInfos -> w
-    int timerInSeconds -> T
+    int completionTime -> V
+    boolean isGraphVisible -> G
     java.lang.String grade -> B
-    java.lang.String title -> D
-    java.util.HashMap bitmapArrayList -> G
-    java.lang.String descriptionImageURL -> L
-    java.lang.String leaderBoardTitle -> N
-    org.json.JSONObject responseToUpload -> H
-    java.lang.String responseLabel -> P
+    java.lang.String deeplinkData -> D
+    java.lang.String name -> F
+    boolean responseMandatory -> K
+    java.lang.String descriptionImage -> L
+    java.lang.String scoreLabel -> N
+    java.lang.String gradeLabel -> P
     java.lang.String leaderBoardType -> s
+    java.lang.String baseUrl -> R
     java.lang.String correctAnswerFontcolor -> u
-    boolean timerTypeIsQuestion -> S
+    boolean timerLimitEnabled -> S
+    java.util.Map mInboxVariables -> W
     boolean rewardUser -> t
     int maximumTotalScore -> z
-    boolean isGraphVisible -> F
-    int completionTime -> U
+    int timerInSeconds -> U
     java.lang.String reward -> C
-    java.lang.String name -> E
-    1:33:void <init>():18:50 -> <init>
-    1:1:java.lang.String getGradeLabel():267:267 -> A
-    1:1:java.lang.String getLeaderBoardTitle():259:259 -> B
-    1:1:java.lang.String getLeaderBoardType():143:143 -> C
-    1:1:int getMaximumTotalScore():111:111 -> D
-    1:1:java.lang.String getResponseLabel():275:275 -> E
-    1:1:boolean getResponseMandatory():227:227 -> F
-    1:1:org.json.JSONObject getResponseToUpload():211:211 -> G
-    1:1:java.lang.String getReward():183:183 -> H
-    1:1:java.lang.String getScoreLabel():251:251 -> I
-    1:1:int getTimerInSeconds():75:75 -> J
-    1:1:java.lang.String getTitle():191:191 -> K
-    1:1:int getTotalScore():127:127 -> L
-    1:1:java.util.ArrayList getTriviaModelQuestionInfos():175:175 -> M
-    1:1:java.lang.String getWrongAnswerFontcolor():167:167 -> N
-    1:1:boolean isGraphVisible():95:95 -> O
-    1:1:boolean isTimerLimitEnabled():59:59 -> P
-    1:1:boolean isTimerTypeIsQuestion():67:67 -> Q
-    1:1:void setBkTriviaLeaderboardInfo(com.brandkinesis.activity.trivia.pojos.BKTriviaLeaderboardInfo):107:107 -> a
-    2:2:void setResponseToUpload(org.json.JSONObject):207:207 -> a
-    3:3:void setGradeColors(int[]):215:215 -> a
-    1:1:void setCompletionTime(int):87:87 -> b
-    1:1:void setCurrentScore(int):123:123 -> c
-    2:2:void setTriviaModelQuestionInfos(java.util.ArrayList):179:179 -> c
-    1:1:void setMaximumTotalScore(int):115:115 -> d
-    1:1:void setTimerInSeconds(int):79:79 -> e
-    1:1:void setTotalScore(int):131:131 -> f
-    1:1:void setGraphVisible(boolean):99:99 -> g
-    1:1:void setResponseMandatory(boolean):223:223 -> h
-    1:1:void setRewardUser(boolean):155:155 -> i
-    2:2:void setBaseUrl(java.lang.String):279:279 -> i
-    1:1:void setTimerLimitEnabled(boolean):63:63 -> j
-    2:2:void setCorrectAnswerFontcolor(java.lang.String):163:163 -> j
-    1:1:void setTimerTypeIsQuestion(boolean):71:71 -> k
-    2:2:void setDescriptionImage(java.lang.String):231:231 -> k
-    1:1:void setDescriptionImageURL(java.lang.String):243:243 -> l
-    1:1:void setGrade(java.lang.String):139:139 -> m
-    1:1:void setGradeLabel(java.lang.String):263:263 -> n
-    1:1:void setLeaderBoardTitle(java.lang.String):255:255 -> o
-    1:1:void setLeaderBoardType(java.lang.String):147:147 -> p
-    1:1:void setName(java.lang.String):203:203 -> q
-    1:1:void setResponseLabel(java.lang.String):271:271 -> r
-    2:2:java.lang.String getBaseUrl():283:283 -> r
-    1:1:com.brandkinesis.activity.trivia.pojos.BKTriviaLeaderboardInfo getBkTriviaLeaderboardInfo():103:103 -> s
-    2:2:void setReward(java.lang.String):187:187 -> s
-    1:1:int getCompletionTime():83:83 -> t
-    2:2:void setScoreLabel(java.lang.String):247:247 -> t
-    1:1:java.lang.String getCorrectAnswerFontcolor():159:159 -> u
-    2:2:void setTitle(java.lang.String):195:195 -> u
-    1:1:int getCurrentScore():119:119 -> v
-    2:2:void setWrongAnswerFontcolor(java.lang.String):171:171 -> v
-    1:1:java.lang.String getDescriptionImage():235:235 -> w
-    1:1:java.lang.String getDescriptionImageURL():239:239 -> x
-    1:1:java.lang.String getGrade():135:135 -> y
-    1:1:int[] getGradeColors():219:219 -> z
+    int[] gradeColors -> J
+    java.lang.String title -> E
+    1:34:void <init>():19:52 -> <init>
+    1:1:int[] getGradeColors():240:240 -> A
+    1:1:java.lang.String getGradeLabel():288:288 -> B
+    1:1:java.util.Map getInboxVariables():57:57 -> C
+    1:1:java.lang.String getLeaderBoardTitle():280:280 -> D
+    1:1:java.lang.String getLeaderBoardType():164:164 -> E
+    1:1:int getMaximumTotalScore():132:132 -> F
+    1:1:java.lang.String getResponseLabel():296:296 -> G
+    1:1:boolean getResponseMandatory():248:248 -> H
+    1:1:org.json.JSONObject getResponseToUpload():232:232 -> I
+    1:1:java.lang.String getReward():204:204 -> J
+    1:1:java.lang.String getScoreLabel():272:272 -> K
+    1:1:int getTimerInSeconds():96:96 -> L
+    1:1:java.lang.String getTitle():212:212 -> M
+    1:1:int getTotalScore():148:148 -> N
+    1:1:java.util.ArrayList getTriviaModelQuestionInfos():196:196 -> O
+    1:1:java.lang.String getWrongAnswerFontcolor():188:188 -> P
+    1:1:boolean isGraphVisible():116:116 -> Q
+    1:1:boolean isTimerLimitEnabled():80:80 -> R
+    1:1:boolean isTimerTypeIsQuestion():88:88 -> S
+    1:1:void setInboxVariables(java.util.Map):61:61 -> a
+    2:2:void setBkTriviaLeaderboardInfo(com.brandkinesis.activity.trivia.pojos.BKTriviaLeaderboardInfo):128:128 -> a
+    3:3:void setResponseToUpload(org.json.JSONObject):228:228 -> a
+    4:4:void setGradeColors(int[]):236:236 -> a
+    1:1:void setCompletionTime(int):108:108 -> b
+    1:1:void setCurrentScore(int):144:144 -> c
+    2:2:void setTriviaModelQuestionInfos(java.util.ArrayList):200:200 -> c
+    1:1:void setMaximumTotalScore(int):136:136 -> d
+    1:1:void setTimerInSeconds(int):100:100 -> e
+    1:1:void setTotalScore(int):152:152 -> f
+    1:1:void setGraphVisible(boolean):120:120 -> g
+    1:1:void setResponseMandatory(boolean):244:244 -> h
+    1:1:void setRewardUser(boolean):176:176 -> i
+    2:2:void setBaseUrl(java.lang.String):300:300 -> i
+    1:1:void setTimerLimitEnabled(boolean):84:84 -> j
+    2:2:void setCorrectAnswerFontcolor(java.lang.String):184:184 -> j
+    1:1:void setDeeplinkData(java.lang.String):69:69 -> k
+    2:2:void setTimerTypeIsQuestion(boolean):92:92 -> k
+    1:1:void setDescriptionImage(java.lang.String):252:252 -> l
+    1:1:void setDescriptionImageURL(java.lang.String):264:264 -> m
+    1:1:void setGrade(java.lang.String):160:160 -> n
+    1:1:void setGradeLabel(java.lang.String):284:284 -> o
+    1:1:void setLeaderBoardTitle(java.lang.String):276:276 -> p
+    1:1:void setLeaderBoardType(java.lang.String):168:168 -> q
+    1:1:void setName(java.lang.String):224:224 -> r
+    2:2:java.lang.String getBaseUrl():304:304 -> r
+    1:1:com.brandkinesis.activity.trivia.pojos.BKTriviaLeaderboardInfo getBkTriviaLeaderboardInfo():124:124 -> s
+    2:2:void setResponseLabel(java.lang.String):292:292 -> s
+    1:1:int getCompletionTime():104:104 -> t
+    2:2:void setReward(java.lang.String):208:208 -> t
+    1:1:java.lang.String getCorrectAnswerFontcolor():180:180 -> u
+    2:2:void setScoreLabel(java.lang.String):268:268 -> u
+    1:1:int getCurrentScore():140:140 -> v
+    2:2:void setTitle(java.lang.String):216:216 -> v
+    1:1:java.lang.String getDeeplinkData():65:65 -> w
+    2:2:void setWrongAnswerFontcolor(java.lang.String):192:192 -> w
+    1:1:java.lang.String getDescriptionImage():256:256 -> x
+    1:1:java.lang.String getDescriptionImageURL():260:260 -> y
+    1:1:java.lang.String getGrade():156:156 -> z
 com.brandkinesis.activity.trivia.pojos.BKTriviaModelOptionInfo -> com.brandkinesis.activity.trivia.pojos.d:
     boolean isCorrectAns -> q
     java.lang.String optionImgUrl -> s
@@ -6089,50 +6098,50 @@ com.brandkinesis.activity.tutorials.coachmarks.BKInteractiveTutorialActivity -> 
     android.view.View parentView -> G
     1:13:void <init>():76:88 -> <init>
     1:1:com.brandkinesis.activity.tutorials.coachmarks.CustomImageView access$000(com.brandkinesis.activity.tutorials.coachmarks.BKInteractiveTutorialActivity):76:76 -> a
-    2:25:com.brandkinesis.activity.tutorials.coachmarks.pojo.BKToolTipPOJO calculateYaxis(com.brandkinesis.activity.tutorials.coachmarks.pojo.BKInteractiveTutorialLayoutDetails):349:372 -> a
-    26:71:void fetchViewData(android.view.View):387:432 -> a
-    72:80:void createRedirectionUsingActionType(int):443:451 -> a
-    81:213:void setButtonProperties(com.brandkinesis.activity.tutorials.coachmarks.pojo.BKIntTutElementFooter):765:897 -> a
-    214:214:void setFontTextMaxSize(android.widget.TextView,java.lang.Integer):905:905 -> a
-    215:221:void setRoundedBackground(android.view.View,int,int):914:920 -> a
-    222:228:void setRoundedBackground(android.view.View,int,int,double):925:931 -> a
-    229:238:void setBottomRoundedBackground(android.view.View,int,com.brandkinesis.activity.tutorials.coachmarks.pojo.BKToolTipPOJO,com.brandkinesis.activity.tutorials.coachmarks.pojo.BKInteractiveTutorialLayoutDetails):961:970 -> a
-    239:272:void customizeButton(android.view.View,com.brandkinesis.activity.tutorials.coachmarks.pojo.BKIntTutFooterButton):986:1019 -> a
-    273:313:void setDescriptionViewProperties(com.brandkinesis.activity.tutorials.coachmarks.pojo.BKIntTutElementDescription):1034:1074 -> a
-    314:315:com.brandkinesis.activity.tutorials.coachmarks.pojo.BKInteractiveTutorialLayoutDetails getLocationOfInteractiveView(android.view.View,java.lang.String):1083:1084 -> a
-    1:1:void focusView(android.view.View):291:291 -> b
-    2:22:void setShapeTutorialProperties(com.brandkinesis.activity.tutorials.coachmarks.pojo.BKInteractiveTutorialLayoutDetails):692:712 -> b
-    23:32:void setTopRoundedBackground(android.view.View,int,com.brandkinesis.activity.tutorials.coachmarks.pojo.BKToolTipPOJO,com.brandkinesis.activity.tutorials.coachmarks.pojo.BKInteractiveTutorialLayoutDetails):936:945 -> b
-    1:7:float[] updatedBottomBorders(com.brandkinesis.activity.tutorials.coachmarks.pojo.BKInteractiveTutorialLayoutDetails):975:981 -> c
-    8:9:int[] getScreenLocation(android.view.View):1088:1089 -> c
-    1:4:com.brandkinesis.activity.tutorials.coachmarks.pojo.BKInteractiveTutorialLayoutDetails inspectChild(android.view.View):379:382 -> d
-    5:22:void createRespondedEventAndClose():475:492 -> d
-    23:29:float[] updatedTopBorders(com.brandkinesis.activity.tutorials.coachmarks.pojo.BKInteractiveTutorialLayoutDetails):950:956 -> d
-    1:19:com.brandkinesis.activity.tutorials.coachmarks.pojo.BKScrollType isInsideScrollView(android.view.View):269:287 -> e
-    20:36:void createSkippedEventCallback():455:471 -> e
-    1:12:void createTutPresentedCallback():174:185 -> f
-    13:30:void lambda$initViews$1(android.view.View):218:235 -> f
-    1:10:void lambda$initViews$2(android.view.View):241:250 -> g
-    11:14:int getNavBarHeight():512:515 -> g
-    1:1:void lambda$initViews$3(android.view.View):255:255 -> h
-    2:4:int getStatusBarHeight():499:501 -> h
-    1:46:com.brandkinesis.activity.tutorials.coachmarks.pojo.BKToolTipPOJO getYAxis():296:341 -> i
-    1:76:void initViews():189:264 -> j
-    1:2:void lambda$onConfigurationChanged$0():163:164 -> k
-    1:2:void resetActivityData():1100:1101 -> l
-    1:148:void setDataToViews():538:685 -> m
-    1:2:void setDefaultPropertiesToButton():438:439 -> n
+    2:25:com.brandkinesis.activity.tutorials.coachmarks.pojo.BKToolTipPOJO calculateYaxis(com.brandkinesis.activity.tutorials.coachmarks.pojo.BKInteractiveTutorialLayoutDetails):350:373 -> a
+    26:71:void fetchViewData(android.view.View):388:433 -> a
+    72:80:void createRedirectionUsingActionType(int):444:452 -> a
+    81:213:void setButtonProperties(com.brandkinesis.activity.tutorials.coachmarks.pojo.BKIntTutElementFooter):768:900 -> a
+    214:214:void setFontTextMaxSize(android.widget.TextView,java.lang.Integer):908:908 -> a
+    215:221:void setRoundedBackground(android.view.View,int,int):917:923 -> a
+    222:228:void setRoundedBackground(android.view.View,int,int,double):928:934 -> a
+    229:238:void setBottomRoundedBackground(android.view.View,int,com.brandkinesis.activity.tutorials.coachmarks.pojo.BKToolTipPOJO,com.brandkinesis.activity.tutorials.coachmarks.pojo.BKInteractiveTutorialLayoutDetails):964:973 -> a
+    239:272:void customizeButton(android.view.View,com.brandkinesis.activity.tutorials.coachmarks.pojo.BKIntTutFooterButton):989:1022 -> a
+    273:315:void setDescriptionViewProperties(com.brandkinesis.activity.tutorials.coachmarks.pojo.BKIntTutElementDescription):1037:1079 -> a
+    316:317:com.brandkinesis.activity.tutorials.coachmarks.pojo.BKInteractiveTutorialLayoutDetails getLocationOfInteractiveView(android.view.View,java.lang.String):1088:1089 -> a
+    1:1:void focusView(android.view.View):292:292 -> b
+    2:22:void setShapeTutorialProperties(com.brandkinesis.activity.tutorials.coachmarks.pojo.BKInteractiveTutorialLayoutDetails):695:715 -> b
+    23:32:void setTopRoundedBackground(android.view.View,int,com.brandkinesis.activity.tutorials.coachmarks.pojo.BKToolTipPOJO,com.brandkinesis.activity.tutorials.coachmarks.pojo.BKInteractiveTutorialLayoutDetails):939:948 -> b
+    1:7:float[] updatedBottomBorders(com.brandkinesis.activity.tutorials.coachmarks.pojo.BKInteractiveTutorialLayoutDetails):978:984 -> c
+    8:9:int[] getScreenLocation(android.view.View):1093:1094 -> c
+    1:4:com.brandkinesis.activity.tutorials.coachmarks.pojo.BKInteractiveTutorialLayoutDetails inspectChild(android.view.View):380:383 -> d
+    5:22:void createRespondedEventAndClose():476:493 -> d
+    23:29:float[] updatedTopBorders(com.brandkinesis.activity.tutorials.coachmarks.pojo.BKInteractiveTutorialLayoutDetails):953:959 -> d
+    1:19:com.brandkinesis.activity.tutorials.coachmarks.pojo.BKScrollType isInsideScrollView(android.view.View):270:288 -> e
+    20:36:void createSkippedEventCallback():456:472 -> e
+    1:12:void createTutPresentedCallback():175:186 -> f
+    13:30:void lambda$initViews$1(android.view.View):219:236 -> f
+    1:10:void lambda$initViews$2(android.view.View):242:251 -> g
+    11:14:int getNavBarHeight():513:516 -> g
+    1:1:void lambda$initViews$3(android.view.View):256:256 -> h
+    2:4:int getStatusBarHeight():500:502 -> h
+    1:46:com.brandkinesis.activity.tutorials.coachmarks.pojo.BKToolTipPOJO getYAxis():297:342 -> i
+    1:76:void initViews():190:265 -> j
+    1:2:void lambda$onConfigurationChanged$0():164:165 -> k
+    1:2:void resetActivityData():1105:1106 -> l
+    1:150:void setDataToViews():539:688 -> m
+    1:2:void setDefaultPropertiesToButton():439:440 -> n
     1:5:void onBackPressed():112:116 -> onBackPressed
-    1:3:void onConfigurationChanged(android.content.res.Configuration):159:161 -> onConfigurationChanged
-    1:31:void onCreate(android.os.Bundle):122:152 -> onCreate
-    1:2:void onDestroy():1106:1107 -> onDestroy
-    1:1:void onStop():1095:1095 -> onStop
+    1:3:void onConfigurationChanged(android.content.res.Configuration):160:162 -> onConfigurationChanged
+    1:32:void onCreate(android.os.Bundle):122:153 -> onCreate
+    1:2:void onDestroy():1111:1112 -> onDestroy
+    1:1:void onStop():1100:1100 -> onStop
 com.brandkinesis.activity.tutorials.coachmarks.BKInteractiveTutorialActivity$1 -> com.brandkinesis.activity.tutorials.coachmarks.BKInteractiveTutorialActivity$a:
     com.brandkinesis.activity.tutorials.coachmarks.BKInteractiveTutorialActivity this$0 -> b
-    1:1:void <init>(com.brandkinesis.activity.tutorials.coachmarks.BKInteractiveTutorialActivity):599:599 -> <init>
-    1:1:void onResourceReady(android.graphics.Bitmap,com.bumptech.glide.request.transition.Transition):602:602 -> a
-    2:7:void lambda$onResourceReady$0(android.graphics.Bitmap):604:609 -> a
-    1:1:void onResourceReady(java.lang.Object,com.bumptech.glide.request.transition.Transition):599:599 -> onResourceReady
+    1:1:void <init>(com.brandkinesis.activity.tutorials.coachmarks.BKInteractiveTutorialActivity):602:602 -> <init>
+    1:1:void onResourceReady(android.graphics.Bitmap,com.bumptech.glide.request.transition.Transition):605:605 -> a
+    2:7:void lambda$onResourceReady$0(android.graphics.Bitmap):607:612 -> a
+    1:1:void onResourceReady(java.lang.Object,com.bumptech.glide.request.transition.Transition):602:602 -> onResourceReady
 com.brandkinesis.activity.tutorials.coachmarks.BKToolTipClipper -> com.brandkinesis.activity.tutorials.coachmarks.BKToolTipClipper:
     android.graphics.RectF arrowRectSpace -> g
     float targetIdCenter -> b
@@ -6798,53 +6807,53 @@ com.brandkinesis.activitymanager.BKActivity -> com.brandkinesis.activitymanager.
     com.brandkinesis.activity.trivia.views.BKLeaderboardCallBack bkLeaderboardCallBack -> m
     long millisRemaining -> p
     int videoCurrentPosition -> q
-    1:310:void <init>():69:378 -> <init>
-    1:1:java.lang.String access$000(com.brandkinesis.activitymanager.BKActivity):69:69 -> a
-    2:2:java.util.HashMap access$400(com.brandkinesis.activitymanager.BKActivity,android.content.Context):69:69 -> a
-    3:3:void access$500(com.brandkinesis.activitymanager.BKActivity,java.util.HashMap):69:69 -> a
-    4:8:void setOrientationSupport(int):191:195 -> a
-    9:12:void redirectionToMiniGames(java.lang.String):420:423 -> a
-    1:1:java.lang.String access$100(com.brandkinesis.activitymanager.BKActivity):69:69 -> b
-    2:2:void access$600(com.brandkinesis.activitymanager.BKActivity,java.util.HashMap):69:69 -> b
-    3:12:java.util.HashMap getActivityEventData(android.content.Context):404:413 -> b
-    13:16:void redirectionToWeb(java.lang.String):428:431 -> b
-    1:1:void access$200(com.brandkinesis.activitymanager.BKActivity):69:69 -> c
-    2:119:void loadActivityByType(android.content.Context):221:338 -> c
-    120:125:void loadActivityByType(android.content.Context):324:329 -> c
-    126:129:void loadActivityByType(android.content.Context):317:320 -> c
-    130:141:void loadActivityByType(android.content.Context):302:313 -> c
-    142:144:void loadActivityByType(android.content.Context):297:299 -> c
-    145:147:void loadActivityByType(android.content.Context):292:294 -> c
-    148:150:void loadActivityByType(android.content.Context):286:288 -> c
-    151:154:void loadActivityByType(android.content.Context):278:281 -> c
-    155:259:void loadActivityByType(android.content.Context):251:355 -> c
-    1:1:void access$300(com.brandkinesis.activitymanager.BKActivity):69:69 -> d
-    2:6:void init():206:210 -> d
-    1:1:void onBackPressed():85:85 -> onBackPressed
-    1:40:void onCreate(android.os.Bundle):146:185 -> onCreate
-    41:41:void onCreate(android.os.Bundle):183:183 -> onCreate
-    1:5:void onDestroy():389:393 -> onDestroy
-    1:1:boolean onKeyDown(int,android.view.KeyEvent):398:398 -> onKeyDown
-    1:1:void onPause():441:441 -> onPause
-    1:1:void onResume():436:436 -> onResume
-    1:4:void onSaveInstanceState(android.os.Bundle):366:369 -> onSaveInstanceState
-    1:2:void onStop():447:448 -> onStop
+    1:324:void <init>():70:393 -> <init>
+    1:1:java.lang.String access$000(com.brandkinesis.activitymanager.BKActivity):70:70 -> a
+    2:2:java.util.HashMap access$400(com.brandkinesis.activitymanager.BKActivity,android.content.Context):70:70 -> a
+    3:3:void access$500(com.brandkinesis.activitymanager.BKActivity,java.util.HashMap):70:70 -> a
+    4:9:void setOrientationSupport(int):205:210 -> a
+    10:13:void redirectionToMiniGames(java.lang.String):435:438 -> a
+    1:1:java.lang.String access$100(com.brandkinesis.activitymanager.BKActivity):70:70 -> b
+    2:2:void access$600(com.brandkinesis.activitymanager.BKActivity,java.util.HashMap):70:70 -> b
+    3:12:java.util.HashMap getActivityEventData(android.content.Context):419:428 -> b
+    13:16:void redirectionToWeb(java.lang.String):443:446 -> b
+    1:1:void access$200(com.brandkinesis.activitymanager.BKActivity):70:70 -> c
+    2:119:void loadActivityByType(android.content.Context):236:353 -> c
+    120:125:void loadActivityByType(android.content.Context):339:344 -> c
+    126:129:void loadActivityByType(android.content.Context):332:335 -> c
+    130:141:void loadActivityByType(android.content.Context):317:328 -> c
+    142:144:void loadActivityByType(android.content.Context):312:314 -> c
+    145:147:void loadActivityByType(android.content.Context):307:309 -> c
+    148:150:void loadActivityByType(android.content.Context):301:303 -> c
+    151:154:void loadActivityByType(android.content.Context):293:296 -> c
+    155:259:void loadActivityByType(android.content.Context):266:370 -> c
+    1:1:void access$300(com.brandkinesis.activitymanager.BKActivity):70:70 -> d
+    2:6:void init():221:225 -> d
+    1:1:void onBackPressed():86:86 -> onBackPressed
+    1:40:void onCreate(android.os.Bundle):160:199 -> onCreate
+    41:41:void onCreate(android.os.Bundle):197:197 -> onCreate
+    1:5:void onDestroy():404:408 -> onDestroy
+    1:1:boolean onKeyDown(int,android.view.KeyEvent):413:413 -> onKeyDown
+    1:1:void onPause():456:456 -> onPause
+    1:1:void onResume():451:451 -> onResume
+    1:4:void onSaveInstanceState(android.os.Bundle):381:384 -> onSaveInstanceState
+    1:2:void onStop():462:463 -> onStop
 com.brandkinesis.activitymanager.BKActivity$1 -> com.brandkinesis.activitymanager.BKActivity$a:
     com.brandkinesis.activitymanager.BKActivity this$0 -> a
-    1:1:void <init>(com.brandkinesis.activitymanager.BKActivity):88:88 -> <init>
-    1:12:void onSubmitButtonClicked():94:105 -> a
+    1:1:void <init>(com.brandkinesis.activitymanager.BKActivity):89:89 -> <init>
+    1:24:void onSubmitButtonClicked():95:118 -> a
 com.brandkinesis.activitymanager.BKActivity$2 -> com.brandkinesis.activitymanager.BKActivity$b:
     com.brandkinesis.activitymanager.BKActivity this$0 -> a
-    1:1:void <init>(com.brandkinesis.activitymanager.BKActivity):110:110 -> <init>
-    1:4:void onEndReached():115:118 -> a
-    1:11:void onActivitySkipped():123:133 -> b
+    1:1:void <init>(com.brandkinesis.activitymanager.BKActivity):124:124 -> <init>
+    1:4:void onEndReached():129:132 -> a
+    1:11:void onActivitySkipped():137:147 -> b
 com.brandkinesis.activitymanager.BKActivity$3 -> com.brandkinesis.activitymanager.BKActivity$c:
     com.brandkinesis.activitymanager.BKActivity this$0 -> a
-    1:1:void <init>(com.brandkinesis.activitymanager.BKActivity):378:378 -> <init>
-    1:3:void onOpenStore(boolean):381:383 -> a
+    1:1:void <init>(com.brandkinesis.activitymanager.BKActivity):393:393 -> <init>
+    1:3:void onOpenStore(boolean):396:398 -> a
 com.brandkinesis.activitymanager.BKActivity$4 -> com.brandkinesis.activitymanager.BKActivity$d:
     int[] $SwitchMap$com$brandkinesis$activitymanager$BKActivityTypes -> a
-    1:1:void <clinit>():247:247 -> <clinit>
+    1:1:void <clinit>():262:262 -> <clinit>
 com.brandkinesis.activitymanager.BKActivityEvents -> com.brandkinesis.activitymanager.a:
     1:4:java.lang.String createEventWithSubType(int,java.util.HashMap,boolean):32:35 -> a
     5:7:void closeEvent(java.lang.String):47:49 -> a
@@ -7422,20 +7431,20 @@ com.brandkinesis.apirequests.BKParseIAMJson -> com.brandkinesis.apirequests.h:
     1:19:com.brandkinesis.activitymanager.BKActivityModel parseIamJson():35:53 -> a
 com.brandkinesis.apirequests.BKParseInboxMessages -> com.brandkinesis.apirequests.i:
     1:24:com.brandkinesis.inbox.pojos.BKInboxModel parseMessages(org.json.JSONObject,java.lang.String):46:69 -> a
-    25:169:com.brandkinesis.inbox.pojos.BKInboxModel parseMessages(org.json.JSONObject,java.lang.String):67:211 -> a
-    170:188:java.util.ArrayList getTagsArrayFromData(org.json.JSONObject):216:234 -> a
+    25:175:com.brandkinesis.inbox.pojos.BKInboxModel parseMessages(org.json.JSONObject,java.lang.String):67:217 -> a
+    176:194:java.util.ArrayList getTagsArrayFromData(org.json.JSONObject):222:240 -> a
 com.brandkinesis.apirequests.BKParseInboxMessages$BkZipDownloaderTask -> com.brandkinesis.apirequests.i$a:
     java.lang.String activityDirPath2 -> g
-    1:2:void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String):319:320 -> <init>
-    1:10:void onZipExtracted():325:334 -> c
-    1:1:void onZipFailed():339:339 -> d
+    1:2:void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String):325:326 -> <init>
+    1:10:void onZipExtracted():331:340 -> c
+    1:1:void onZipFailed():345:345 -> d
 com.brandkinesis.apirequests.BKParseInboxMessages$ZipDownloaderTask -> com.brandkinesis.apirequests.i$b:
     java.lang.String appDir -> f
-    1:4:void <init>(java.lang.String,java.lang.String,java.lang.String):246:249 -> <init>
+    1:4:void <init>(java.lang.String,java.lang.String,java.lang.String):252:255 -> <init>
     void onDownloadProgress(java.lang.String,int,int) -> a
-    1:12:void onDownloadStarted(java.lang.String,boolean):254:265 -> a
-    13:34:void onDownloadCompleted(java.lang.String,java.lang.String):281:302 -> a
-    35:36:void onError(java.lang.Exception):307:308 -> a
+    1:12:void onDownloadStarted(java.lang.String,boolean):260:271 -> a
+    13:34:void onDownloadCompleted(java.lang.String,java.lang.String):287:308 -> a
+    35:36:void onError(java.lang.Exception):313:314 -> a
     void onZipExtracted() -> c
     void onZipFailed() -> d
 com.brandkinesis.apirequests.BKParseMiniGamesActionJson -> com.brandkinesis.apirequests.j:
@@ -7491,29 +7500,29 @@ com.brandkinesis.apirequests.BKParseSurveyJson$1 -> com.brandkinesis.apirequests
     1:1:void <clinit>():304:304 -> <clinit>
 com.brandkinesis.apirequests.BKParseTriviaJson -> com.brandkinesis.apirequests.o:
     java.lang.String mResponse -> a
-    1:1:void <init>():47:47 -> <init>
-    2:3:void <init>(java.lang.String):51:52 -> <init>
-    1:173:com.brandkinesis.activitymanager.BKActivityModel parseTriviaData():63:235 -> a
-    174:213:com.brandkinesis.activitymanager.BKActivityModel parseTriviaData():225:264 -> a
-    214:232:com.brandkinesis.activity.trivia.pojos.BKTriviaLeaderboardInfo parseGradesData(org.json.JSONObject):272:290 -> a
-    233:285:java.util.ArrayList parseOptionSet(org.json.JSONArray):330:382 -> a
-    286:302:com.brandkinesis.activity.trivia.BKTriviaTypes$QuestionTypes getQuestionType(java.lang.String):396:412 -> a
-    303:303:com.brandkinesis.activity.trivia.BKTriviaTypes$QuestionTypes getQuestionType(java.lang.String):410:410 -> a
-    304:304:com.brandkinesis.activity.trivia.BKTriviaTypes$QuestionTypes getQuestionType(java.lang.String):408:408 -> a
-    305:305:com.brandkinesis.activity.trivia.BKTriviaTypes$QuestionTypes getQuestionType(java.lang.String):406:406 -> a
-    306:314:int getQuestionTypeNumber(com.brandkinesis.activity.trivia.BKTriviaTypes$QuestionTypes):426:434 -> a
-    315:315:int getQuestionTypeNumber(com.brandkinesis.activity.trivia.BKTriviaTypes$QuestionTypes):432:432 -> a
-    316:316:int getQuestionTypeNumber(com.brandkinesis.activity.trivia.BKTriviaTypes$QuestionTypes):430:430 -> a
-    317:317:int getQuestionTypeNumber(com.brandkinesis.activity.trivia.BKTriviaTypes$QuestionTypes):428:428 -> a
-    318:422:org.json.JSONObject buildTriviaResponse(com.brandkinesis.activitymanager.BKActivityModel):454:558 -> a
+    1:1:void <init>():50:50 -> <init>
+    2:3:void <init>(java.lang.String):54:55 -> <init>
+    1:179:com.brandkinesis.activitymanager.BKActivityModel parseTriviaData():66:244 -> a
+    180:219:com.brandkinesis.activitymanager.BKActivityModel parseTriviaData():234:273 -> a
+    220:246:com.brandkinesis.activity.trivia.pojos.BKTriviaLeaderboardInfo parseGradesData(org.json.JSONObject):281:307 -> a
+    247:299:java.util.ArrayList parseOptionSet(org.json.JSONArray):347:399 -> a
+    300:316:com.brandkinesis.activity.trivia.BKTriviaTypes$QuestionTypes getQuestionType(java.lang.String):413:429 -> a
+    317:317:com.brandkinesis.activity.trivia.BKTriviaTypes$QuestionTypes getQuestionType(java.lang.String):427:427 -> a
+    318:318:com.brandkinesis.activity.trivia.BKTriviaTypes$QuestionTypes getQuestionType(java.lang.String):425:425 -> a
+    319:319:com.brandkinesis.activity.trivia.BKTriviaTypes$QuestionTypes getQuestionType(java.lang.String):423:423 -> a
+    320:328:int getQuestionTypeNumber(com.brandkinesis.activity.trivia.BKTriviaTypes$QuestionTypes):443:451 -> a
+    329:329:int getQuestionTypeNumber(com.brandkinesis.activity.trivia.BKTriviaTypes$QuestionTypes):449:449 -> a
+    330:330:int getQuestionTypeNumber(com.brandkinesis.activity.trivia.BKTriviaTypes$QuestionTypes):447:447 -> a
+    331:331:int getQuestionTypeNumber(com.brandkinesis.activity.trivia.BKTriviaTypes$QuestionTypes):445:445 -> a
+    332:443:org.json.JSONObject buildTriviaResponse(com.brandkinesis.activitymanager.BKActivityModel):471:582 -> a
 com.brandkinesis.apirequests.BKParseTriviaJson$1 -> com.brandkinesis.apirequests.o$a:
     int[] $SwitchMap$com$brandkinesis$activity$trivia$BKTriviaTypes$QuestionTypes -> a
-    1:1:void <clinit>():404:404 -> <clinit>
+    1:1:void <clinit>():421:421 -> <clinit>
 com.brandkinesis.apirequests.BKParseTriviaJson$GradeComparator -> com.brandkinesis.apirequests.o$b:
     com.brandkinesis.apirequests.BKParseTriviaJson this$0 -> a
-    1:1:void <init>(com.brandkinesis.apirequests.BKParseTriviaJson):294:294 -> <init>
-    1:1:int compare(com.brandkinesis.activity.trivia.pojos.BKTriviaLeaderboardOptionInfo,com.brandkinesis.activity.trivia.pojos.BKTriviaLeaderboardOptionInfo):302:302 -> a
-    1:1:int compare(java.lang.Object,java.lang.Object):294:294 -> compare
+    1:1:void <init>(com.brandkinesis.apirequests.BKParseTriviaJson):311:311 -> <init>
+    1:1:int compare(com.brandkinesis.activity.trivia.pojos.BKTriviaLeaderboardOptionInfo,com.brandkinesis.activity.trivia.pojos.BKTriviaLeaderboardOptionInfo):319:319 -> a
+    1:1:int compare(java.lang.Object,java.lang.Object):311:311 -> compare
 com.brandkinesis.apirequests.BkUpdateUserInfoRequestSender -> com.brandkinesis.apirequests.p:
     java.util.List requests -> a
     boolean updatingUserInfo -> b
@@ -8940,35 +8949,35 @@ com.brandkinesis.push.internal.BKNotificationBuilder -> com.brandkinesis.push.in
     311:314:void applyPushTextColor(android.widget.RemoteViews,int,java.lang.String):444:447 -> a
     315:318:void applyPushBgColor(android.widget.RemoteViews,int):454:457 -> a
     319:322:void applyPushBgColor(android.widget.RemoteViews,int):456:459 -> a
-    323:327:void renderTextViewText(android.widget.RemoteViews,int,java.lang.String,boolean):467:471 -> a
-    328:337:void processPushAmpData(android.os.Bundle):489:498 -> a
-    338:340:void updateSmallIconBgColor(android.os.Bundle,androidx.core.app.NotificationCompat$Builder):510:512 -> a
-    341:345:void updateSmallIcon(android.os.Bundle,android.content.Context,androidx.core.app.NotificationCompat$Builder):533:537 -> a
-    346:383:void getNotification(org.json.JSONObject,android.widget.RemoteViews,java.lang.String,java.lang.String):548:585 -> a
-    384:394:android.content.Intent enhancedPushListenerIntent(java.lang.String,int,android.content.Context,android.os.Bundle):589:599 -> a
-    395:397:android.content.Intent enhancedButtonPushListenerIntent(java.lang.String,int,android.content.Context,android.os.Bundle,java.lang.String,java.lang.String):604:606 -> a
-    398:452:void addCarouselItems(android.widget.RemoteViews,org.json.JSONObject,int):615:669 -> a
-    453:519:void addButtonsUIToPushLayout(org.json.JSONObject,int,android.app.Notification,android.widget.RemoteViews,java.lang.String):677:743 -> a
-    520:626:void addButtonsUIToPushLayout(org.json.JSONObject,int,android.app.Notification,android.widget.RemoteViews,java.lang.String):700:806 -> a
-    627:629:void setButtonUI(android.widget.RemoteViews,java.lang.String,java.lang.String,int,int,java.lang.String):814:814 -> a
-    632:643:void setButtonUI(android.widget.RemoteViews,java.lang.String,java.lang.String,int,int,java.lang.String):817:828 -> a
-    644:644:void setButtonUI(android.widget.RemoteViews,java.lang.String,java.lang.String,int,int,java.lang.String):827:827 -> a
-    645:648:void setHeaderLayout(android.widget.RemoteViews,android.graphics.Bitmap):889:892 -> a
-    649:659:void prepareBannerNotification(int,android.widget.RemoteViews,java.lang.String):896:906 -> a
-    660:705:void setVisibilityToActionButtons(java.lang.String,int,android.widget.RemoteViews,java.lang.String):912:957 -> a
-    706:709:void setVisibilityToActionButtons(java.lang.String,int,android.widget.RemoteViews,java.lang.String):947:950 -> a
-    710:714:void setVisibilityToActionButtons(java.lang.String,int,android.widget.RemoteViews,java.lang.String):939:943 -> a
-    715:718:void setVisibilityToActionButtons(java.lang.String,int,android.widget.RemoteViews,java.lang.String):932:935 -> a
-    719:850:void getImages(java.lang.String):964:1095 -> a
-    851:937:void getImages(java.lang.String):1014:1100 -> a
-    938:943:android.net.Uri soundFile(java.lang.String,android.content.Context):1163:1168 -> a
+    323:325:void renderTextViewText(android.widget.RemoteViews,int,java.lang.String,boolean):467:469 -> a
+    326:335:void processPushAmpData(android.os.Bundle):487:496 -> a
+    336:338:void updateSmallIconBgColor(android.os.Bundle,androidx.core.app.NotificationCompat$Builder):508:510 -> a
+    339:343:void updateSmallIcon(android.os.Bundle,android.content.Context,androidx.core.app.NotificationCompat$Builder):531:535 -> a
+    344:381:void getNotification(org.json.JSONObject,android.widget.RemoteViews,java.lang.String,java.lang.String):546:583 -> a
+    382:392:android.content.Intent enhancedPushListenerIntent(java.lang.String,int,android.content.Context,android.os.Bundle):587:597 -> a
+    393:395:android.content.Intent enhancedButtonPushListenerIntent(java.lang.String,int,android.content.Context,android.os.Bundle,java.lang.String,java.lang.String):602:604 -> a
+    396:450:void addCarouselItems(android.widget.RemoteViews,org.json.JSONObject,int):613:667 -> a
+    451:517:void addButtonsUIToPushLayout(org.json.JSONObject,int,android.app.Notification,android.widget.RemoteViews,java.lang.String):675:741 -> a
+    518:624:void addButtonsUIToPushLayout(org.json.JSONObject,int,android.app.Notification,android.widget.RemoteViews,java.lang.String):698:804 -> a
+    625:627:void setButtonUI(android.widget.RemoteViews,java.lang.String,java.lang.String,int,int,java.lang.String):812:812 -> a
+    630:641:void setButtonUI(android.widget.RemoteViews,java.lang.String,java.lang.String,int,int,java.lang.String):815:826 -> a
+    642:642:void setButtonUI(android.widget.RemoteViews,java.lang.String,java.lang.String,int,int,java.lang.String):825:825 -> a
+    643:646:void setHeaderLayout(android.widget.RemoteViews,android.graphics.Bitmap):887:890 -> a
+    647:657:void prepareBannerNotification(int,android.widget.RemoteViews,java.lang.String):894:904 -> a
+    658:703:void setVisibilityToActionButtons(java.lang.String,int,android.widget.RemoteViews,java.lang.String):910:955 -> a
+    704:707:void setVisibilityToActionButtons(java.lang.String,int,android.widget.RemoteViews,java.lang.String):945:948 -> a
+    708:712:void setVisibilityToActionButtons(java.lang.String,int,android.widget.RemoteViews,java.lang.String):937:941 -> a
+    713:716:void setVisibilityToActionButtons(java.lang.String,int,android.widget.RemoteViews,java.lang.String):930:933 -> a
+    717:848:void getImages(java.lang.String):962:1093 -> a
+    849:935:void getImages(java.lang.String):1012:1098 -> a
+    936:941:android.net.Uri soundFile(java.lang.String,android.content.Context):1161:1166 -> a
     1:1:java.lang.String access$200(com.brandkinesis.push.internal.BKNotificationBuilder):91:91 -> b
-    2:12:void setClickEventForBigImage(int,android.widget.RemoteViews,java.lang.String):833:843 -> b
-    13:45:void setPushButtons(android.widget.RemoteViews,int):847:879 -> b
-    46:50:void setPushButtons(android.widget.RemoteViews,int):867:871 -> b
-    51:53:void setPushButtons(android.widget.RemoteViews,int):860:862 -> b
-    54:56:void setPushButtons(android.widget.RemoteViews,int):854:856 -> b
-    57:57:void setPushButtons(android.widget.RemoteViews,int):851:851 -> b
+    2:12:void setClickEventForBigImage(int,android.widget.RemoteViews,java.lang.String):831:841 -> b
+    13:45:void setPushButtons(android.widget.RemoteViews,int):845:877 -> b
+    46:50:void setPushButtons(android.widget.RemoteViews,int):865:869 -> b
+    51:53:void setPushButtons(android.widget.RemoteViews,int):858:860 -> b
+    54:56:void setPushButtons(android.widget.RemoteViews,int):852:854 -> b
+    57:57:void setPushButtons(android.widget.RemoteViews,int):849:849 -> b
     1:1:java.lang.String access$500(com.brandkinesis.push.internal.BKNotificationBuilder):91:91 -> c
     1:1:android.graphics.Bitmap access$700(com.brandkinesis.push.internal.BKNotificationBuilder):91:91 -> d
 com.brandkinesis.push.internal.BKNotificationBuilder$1 -> com.brandkinesis.push.internal.a$a:
@@ -8981,23 +8990,24 @@ com.brandkinesis.push.internal.BKNotificationBuilder$2 -> com.brandkinesis.push.
     java.lang.String val$actIdFolderName -> g
     com.brandkinesis.push.internal.BKNotificationBuilder this$0 -> h
     org.json.JSONObject val$finalUnitdata -> f
-    1:1:void <init>(com.brandkinesis.push.internal.BKNotificationBuilder,androidx.core.app.NotificationManagerCompat,org.json.JSONObject,java.lang.String):1037:1037 -> <init>
-    1:1:android.widget.RemoteViews onCreateRemoteViews():1040:1040 -> a
-    2:45:android.app.Notification onCreateNotification(android.widget.RemoteViews,int):1045:1088 -> a
+    1:1:void <init>(com.brandkinesis.push.internal.BKNotificationBuilder,androidx.core.app.NotificationManagerCompat,org.json.JSONObject,java.lang.String):1035:1035 -> <init>
+    1:1:android.widget.RemoteViews onCreateRemoteViews():1038:1038 -> a
+    2:45:android.app.Notification onCreateNotification(android.widget.RemoteViews,int):1043:1086 -> a
 com.brandkinesis.push.internal.BKNotificationBuilder$ZipDownloaderTask -> com.brandkinesis.push.internal.a$c:
     java.lang.String activityDirName -> g
     java.lang.String appDir -> f
     java.lang.String txtFileName -> h
-    1:5:void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String):1112:1116 -> <init>
-    1:1:void onDownloadStarted(java.lang.String,boolean):1121:1121 -> a
-    2:2:void onDownloadProgress(java.lang.String,int,int):1126:1126 -> a
-    3:16:void onDownloadCompleted(java.lang.String,java.lang.String):1136:1149 -> a
-    17:18:void onError(java.lang.Exception):1154:1155 -> a
+    1:5:void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String):1110:1114 -> <init>
+    1:1:void onDownloadStarted(java.lang.String,boolean):1119:1119 -> a
+    2:2:void onDownloadProgress(java.lang.String,int,int):1124:1124 -> a
+    3:16:void onDownloadCompleted(java.lang.String,java.lang.String):1134:1147 -> a
+    17:18:void onError(java.lang.Exception):1152:1153 -> a
     void onZipExtracted() -> c
     void onZipFailed() -> d
 com.brandkinesis.push.internal.BKNotificationUtil -> com.brandkinesis.push.internal.b:
-    1:1:android.util.Pair getNotificationChannelId():31:31 -> a
-    2:10:void addChannelSupport(android.content.Context,androidx.core.app.NotificationCompat$Builder):35:43 -> a
+    1:29:android.text.SpannableStringBuilder renderHtmlText(java.lang.String):27:55 -> a
+    30:30:android.util.Pair getNotificationChannelId():77:77 -> a
+    31:39:void addChannelSupport(android.content.Context,androidx.core.app.NotificationCompat$Builder):81:89 -> a
 com.brandkinesis.push.internal.DeleteReceiver -> com.brandkinesis.push.internal.DeleteReceiver:
     1:1:void <init>():14:14 -> <init>
     1:4:void onReceive(android.content.Context,android.content.Intent):17:20 -> onReceive
@@ -9723,47 +9733,48 @@ com.brandkinesis.utils.BKUtilPreferenceManger -> com.brandkinesis.utils.p:
     4:4:void saveStringSetPreference(java.lang.String,java.util.Set):166:166 -> b
     5:5:java.util.Set getStringSetPreference(java.lang.String):174:174 -> b
 com.brandkinesis.utils.BKUtils -> com.brandkinesis.utils.q:
-    1:1:void showShortToast(android.content.Context,java.lang.String):53:53 -> a
-    2:4:int getHeightForButtons(android.content.Context,boolean):60:62 -> a
-    5:75:java.lang.String convertMillisToStringFormat(long):69:139 -> a
-    76:82:void loadImageUsingGlide(android.content.Context,int,android.widget.ImageView,boolean):170:176 -> a
-    83:89:java.lang.String getFilteredInboxVariable(java.lang.String,java.util.Map):181:187 -> a
-    90:90:java.lang.String getFilteredInboxVariable(java.lang.String,java.util.Map):182:182 -> a
-    91:124:com.brandkinesis.activitymanager.BKActivityTypes getActivityType(java.lang.String):196:229 -> a
-    125:125:com.brandkinesis.activitymanager.BKActivityTypes getActivityType(java.lang.String):227:227 -> a
-    126:126:com.brandkinesis.activitymanager.BKActivityTypes getActivityType(java.lang.String):225:225 -> a
-    127:127:com.brandkinesis.activitymanager.BKActivityTypes getActivityType(java.lang.String):223:223 -> a
-    128:128:com.brandkinesis.activitymanager.BKActivityTypes getActivityType(java.lang.String):221:221 -> a
-    129:129:com.brandkinesis.activitymanager.BKActivityTypes getActivityType(java.lang.String):219:219 -> a
-    130:130:com.brandkinesis.activitymanager.BKActivityTypes getActivityType(java.lang.String):217:217 -> a
-    131:131:com.brandkinesis.activitymanager.BKActivityTypes getActivityType(java.lang.String):215:215 -> a
-    132:132:com.brandkinesis.activitymanager.BKActivityTypes getActivityType(java.lang.String):213:213 -> a
-    133:133:com.brandkinesis.activitymanager.BKActivityTypes getActivityType(java.lang.String):211:211 -> a
-    134:134:com.brandkinesis.activitymanager.BKActivityTypes getActivityType(java.lang.String):209:209 -> a
-    135:135:com.brandkinesis.activitymanager.BKActivityTypes getActivityType(java.lang.String):207:207 -> a
-    136:136:com.brandkinesis.activitymanager.BKActivityTypes getActivityType(java.lang.String):205:205 -> a
-    137:137:com.brandkinesis.activitymanager.BKActivityTypes getActivityType(java.lang.String):203:203 -> a
-    138:138:com.brandkinesis.activitymanager.BKActivityTypes getActivityType(java.lang.String):201:201 -> a
-    139:167:android.graphics.Bitmap generateBitmapCircle(int,android.content.Context):236:264 -> a
-    168:176:android.graphics.drawable.Drawable generateDrawableCircle(int,int,boolean):272:280 -> a
-    177:190:android.graphics.drawable.Drawable generateDrawableRectangle(int,int,boolean,com.brandkinesis.activitymanager.BKActivityTypes):303:316 -> a
-    191:204:java.lang.String commaSeparatedString(java.util.List):337:350 -> a
-    205:205:java.lang.String commaSeparatedString(java.util.List):338:338 -> a
-    206:206:java.lang.String getCompoundId(java.lang.String,java.lang.String):398:398 -> a
-    207:207:boolean isBannerOrCustomAd(com.brandkinesis.activitymanager.BKActivityTypes):431:431 -> a
-    208:208:boolean isStorageAppMemory(android.content.Context):436:436 -> a
-    209:215:void loadImageUsingGlide(android.content.Context,java.lang.String,android.widget.ImageView,boolean):442:448 -> a
-    216:222:java.lang.String removeInboxVariables(java.util.Map,java.lang.String):464:470 -> a
-    223:223:java.lang.String removeInboxVariables(java.util.Map,java.lang.String):465:465 -> a
-    1:10:android.graphics.drawable.Drawable generateDrawableRectangle(int,int,boolean):287:296 -> b
-    11:14:java.util.List getListFromCSV(java.lang.String):358:361 -> b
-    15:22:int[] getIntArray(java.util.List):383:390 -> b
-    23:23:int[] getIntArray(java.util.List):385:385 -> b
-    24:26:java.lang.String removeLocalizedVariables(java.util.Map,java.lang.String):455:457 -> b
-    1:1:java.lang.String resolveNull(java.lang.String):375:375 -> c
+    1:1:void showShortToast(android.content.Context,java.lang.String):62:62 -> a
+    2:4:int getHeightForButtons(android.content.Context,boolean):104:106 -> a
+    5:75:java.lang.String convertMillisToStringFormat(long):113:183 -> a
+    76:82:void loadImageUsingGlide(android.content.Context,int,android.widget.ImageView,boolean):214:220 -> a
+    83:89:java.lang.String getFilteredInboxVariable(java.lang.String,java.util.Map):225:231 -> a
+    90:90:java.lang.String getFilteredInboxVariable(java.lang.String,java.util.Map):226:226 -> a
+    91:124:com.brandkinesis.activitymanager.BKActivityTypes getActivityType(java.lang.String):240:273 -> a
+    125:125:com.brandkinesis.activitymanager.BKActivityTypes getActivityType(java.lang.String):271:271 -> a
+    126:126:com.brandkinesis.activitymanager.BKActivityTypes getActivityType(java.lang.String):269:269 -> a
+    127:127:com.brandkinesis.activitymanager.BKActivityTypes getActivityType(java.lang.String):267:267 -> a
+    128:128:com.brandkinesis.activitymanager.BKActivityTypes getActivityType(java.lang.String):265:265 -> a
+    129:129:com.brandkinesis.activitymanager.BKActivityTypes getActivityType(java.lang.String):263:263 -> a
+    130:130:com.brandkinesis.activitymanager.BKActivityTypes getActivityType(java.lang.String):261:261 -> a
+    131:131:com.brandkinesis.activitymanager.BKActivityTypes getActivityType(java.lang.String):259:259 -> a
+    132:132:com.brandkinesis.activitymanager.BKActivityTypes getActivityType(java.lang.String):257:257 -> a
+    133:133:com.brandkinesis.activitymanager.BKActivityTypes getActivityType(java.lang.String):255:255 -> a
+    134:134:com.brandkinesis.activitymanager.BKActivityTypes getActivityType(java.lang.String):253:253 -> a
+    135:135:com.brandkinesis.activitymanager.BKActivityTypes getActivityType(java.lang.String):251:251 -> a
+    136:136:com.brandkinesis.activitymanager.BKActivityTypes getActivityType(java.lang.String):249:249 -> a
+    137:137:com.brandkinesis.activitymanager.BKActivityTypes getActivityType(java.lang.String):247:247 -> a
+    138:138:com.brandkinesis.activitymanager.BKActivityTypes getActivityType(java.lang.String):245:245 -> a
+    139:167:android.graphics.Bitmap generateBitmapCircle(int,android.content.Context):280:308 -> a
+    168:176:android.graphics.drawable.Drawable generateDrawableCircle(int,int,boolean):316:324 -> a
+    177:190:android.graphics.drawable.Drawable generateDrawableRectangle(int,int,boolean,com.brandkinesis.activitymanager.BKActivityTypes):347:360 -> a
+    191:204:java.lang.String commaSeparatedString(java.util.List):381:394 -> a
+    205:205:java.lang.String commaSeparatedString(java.util.List):382:382 -> a
+    206:206:java.lang.String getCompoundId(java.lang.String,java.lang.String):442:442 -> a
+    207:207:boolean isBannerOrCustomAd(com.brandkinesis.activitymanager.BKActivityTypes):475:475 -> a
+    208:208:boolean isStorageAppMemory(android.content.Context):480:480 -> a
+    209:215:void loadImageUsingGlide(android.content.Context,java.lang.String,android.widget.ImageView,boolean):486:492 -> a
+    216:222:java.lang.String removeInboxVariables(java.util.Map,java.lang.String):508:514 -> a
+    223:223:java.lang.String removeInboxVariables(java.util.Map,java.lang.String):509:509 -> a
+    1:10:android.graphics.drawable.Drawable generateDrawableRectangle(int,int,boolean):331:340 -> b
+    11:14:java.util.List getListFromCSV(java.lang.String):402:405 -> b
+    15:22:int[] getIntArray(java.util.List):427:434 -> b
+    23:23:int[] getIntArray(java.util.List):429:429 -> b
+    24:26:java.lang.String removeLocalizedVariables(java.util.Map,java.lang.String):499:501 -> b
+    1:29:android.text.SpannableStringBuilder renderHtmlText(java.lang.String):66:94 -> c
+    1:1:java.lang.String resolveNull(java.lang.String):419:419 -> d
 com.brandkinesis.utils.BKUtils$1 -> com.brandkinesis.utils.q$a:
     int[] $SwitchMap$com$brandkinesis$activitymanager$BKActivityTypes -> a
-    1:1:void <clinit>():199:199 -> <clinit>
+    1:1:void <clinit>():243:243 -> <clinit>
 com.brandkinesis.utils.BKUtilsOSInfo -> com.brandkinesis.utils.r:
     java.lang.String PLATFORM -> a
     1:1:void <clinit>():73:73 -> <clinit>
